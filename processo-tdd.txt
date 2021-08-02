@@ -1,0 +1,5 @@
+O processo sendo seguido nesse trabalho e que está apresentado na figura segue os passos do TDD, porém em dois níveis diferentes.
+No nível mais externo, a partir de uma funcionalidade escrevemos um teste funcional que não passa, então escrevemos o código mínimo para que ele passe.
+Nesse ponto, entramos no nível interno do processo TDD, em que escrevemos um teste de unidade para um aspecto bem específico definindo a interface que será utilizada.
+Em seguida, escrevemos um codigo mínimo que passe no teste. Então reescrevemos para a funcionalidade real e depois verifica-se a necessidade de refatoração.
+Com esse ciclo de processo finalizado, retornamos ao nível mais externo e verificamos a necessidade de refatoração, repetindo todo processo em caso negativo ou retornando ao nível interno em caso positivo. 
