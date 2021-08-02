@@ -1,0 +1,2 @@
+Testes de unidade devem ser independentes (isolados de outras classes, bancos de dados e outras dependências) e de execução rápida e focada em uma funcionalidade bem definida.
+Por outro lado, testes funcionais usam dependências com servidores e bancos de dados, e testam tarefas mais complexas como executar uma página web e realizar tarefas variadas dentro dela. 
